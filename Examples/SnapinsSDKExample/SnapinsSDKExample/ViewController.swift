@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import WebKit
 
 import ServiceCore
 import ServiceKnowledge
@@ -11,7 +12,7 @@ import ServiceCases
 import ServiceChat
 import ServiceSOS
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WKUIDelegate {
 
   @IBOutlet weak var knowledgeButton: UIButton!
   @IBOutlet weak var casesButton: UIButton!
@@ -28,16 +29,30 @@ class ViewController: UIViewController {
     SnapinsConstants.ENABLE_CASES ||
     SnapinsConstants.ENABLE_CHAT ||
     SnapinsConstants.ENABLE_SOS
+    
+    
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    let webConfiguration = WKWebViewConfiguration()
+    //webView = WKWebView(frame: .zero, configuration: webConfiguration)
+    webView = WKWebView(frame: .zero, configuration: webConfiguration)
+    //  webView = WKWebView()
+    webView.frame  = CGRect(x: 0, y: 48, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height-114)
+    webView.layer.zPosition = -10
+    webView.uiDelegate = self
+  
+    let myURL = URL(string:"https://shop.lululemon.com/")
+    let myRequest = URLRequest(url: myURL!)
+    webView.load(myRequest)
+  
+    self.view.addSubview(webView)
 
-    // Enable the relevant Snap-ins buttons and labels
-    nothingEnabledLabel.isHidden = somethingIsEnabled
-    knowledgeButton.isHidden = !SnapinsConstants.ENABLE_KNOWLEDGE
-    casesButton.isHidden = !SnapinsConstants.ENABLE_CASES
-    chatButton.isHidden = !SnapinsConstants.ENABLE_CHAT
-    sosButton.isHidden = !SnapinsConstants.ENABLE_SOS
+//    // Enable the relevant Snap-ins buttons and labels
+//    nothingEnabledLabel.isHidden = somethingIsEnabled
+//    knowledgeButton.isHidden = !SnapinsConstants.ENABLE_KNOWLEDGE
+//    chatButton.isHidden = !SnapinsConstants.ENABLE_CHAT
   }
 
   /**
@@ -74,5 +89,12 @@ class ViewController: UIViewController {
   @IBAction func startSOS(_ sender: Any) {
     ServiceCloud.shared().sos.startSession(with: SnapinsConfig.instance.sosConfig)
   }
+    
+    var webView: WKWebView!
+      
+    override func loadView() {
+      super.loadView()
+        
+    }
 }
 

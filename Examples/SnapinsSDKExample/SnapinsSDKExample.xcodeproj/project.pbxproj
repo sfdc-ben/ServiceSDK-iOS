@@ -3,20 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FCD895C1EE7312D0034FD59 /* ServiceCases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894F1EE731020034FD59 /* ServiceCases.framework */; };
-		6FCD895D1EE7312D0034FD59 /* ServiceCases.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894F1EE731020034FD59 /* ServiceCases.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD895E1EE7312D0034FD59 /* ServiceChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89501EE731020034FD59 /* ServiceChat.framework */; };
-		6FCD895F1EE7312D0034FD59 /* ServiceChat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89501EE731020034FD59 /* ServiceChat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD89601EE7312D0034FD59 /* ServiceCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89511EE731020034FD59 /* ServiceCore.framework */; };
-		6FCD89611EE7312D0034FD59 /* ServiceCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89511EE731020034FD59 /* ServiceCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD89621EE7312D0034FD59 /* ServiceKnowledge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89521EE731020034FD59 /* ServiceKnowledge.framework */; };
-		6FCD89631EE7312D0034FD59 /* ServiceKnowledge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89521EE731020034FD59 /* ServiceKnowledge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD89641EE7312D0034FD59 /* ServiceSOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89531EE731020034FD59 /* ServiceSOS.framework */; };
-		6FCD89651EE7312D0034FD59 /* ServiceSOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89531EE731020034FD59 /* ServiceSOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		87C1E3AB1ECF3F52000B2299 /* SnapinsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1E3AA1ECF3F52000B2299 /* SnapinsConstants.swift */; };
 		87C1E3AD1ECF449D000B2299 /* SnapinsConfig+ActionManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1E3AC1ECF449D000B2299 /* SnapinsConfig+ActionManagerDelegate.swift */; };
 		87EBF7931ECDF4A100127B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EBF7921ECDF4A100127B7B /* AppDelegate.swift */; };
@@ -27,6 +17,17 @@
 		87F348C81ECF667B00DB9066 /* SnapinsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F348C71ECF667B00DB9066 /* SnapinsConfig.swift */; };
 		87F348CA1ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F348C91ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift */; };
 		87F348CC1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F348CB1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift */; };
+		A4383A7F25C745BE003B2FFF /* ServiceSOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7A25C745BE003B2FFF /* ServiceSOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4383A8025C745BE003B2FFF /* ServiceChat.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7B25C745BE003B2FFF /* ServiceChat.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4383A8125C745BE003B2FFF /* ServiceCases.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7C25C745BE003B2FFF /* ServiceCases.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4383A8225C745BE003B2FFF /* ServiceKnowledge.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7D25C745BE003B2FFF /* ServiceKnowledge.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4383A8325C745BE003B2FFF /* ServiceCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7E25C745BE003B2FFF /* ServiceCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4383A8425C745D6003B2FFF /* ServiceCases.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7C25C745BE003B2FFF /* ServiceCases.xcframework */; };
+		A4383A8525C745D6003B2FFF /* ServiceChat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7B25C745BE003B2FFF /* ServiceChat.xcframework */; };
+		A4383A8625C745D6003B2FFF /* ServiceCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7E25C745BE003B2FFF /* ServiceCore.xcframework */; };
+		A4383A8725C745D6003B2FFF /* ServiceKnowledge.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7D25C745BE003B2FFF /* ServiceKnowledge.xcframework */; };
+		A4383A8825C745D6003B2FFF /* ServiceSOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4383A7A25C745BE003B2FFF /* ServiceSOS.xcframework */; };
+		A4383A8B25C74B7F003B2FFF /* Floaty in Frameworks */ = {isa = PBXBuildFile; productRef = A4383A8A25C74B7F003B2FFF /* Floaty */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,11 +37,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6FCD89611EE7312D0034FD59 /* ServiceCore.framework in Embed Frameworks */,
-				6FCD895F1EE7312D0034FD59 /* ServiceChat.framework in Embed Frameworks */,
-				6FCD895D1EE7312D0034FD59 /* ServiceCases.framework in Embed Frameworks */,
-				6FCD89651EE7312D0034FD59 /* ServiceSOS.framework in Embed Frameworks */,
-				6FCD89631EE7312D0034FD59 /* ServiceKnowledge.framework in Embed Frameworks */,
+				A4383A7F25C745BE003B2FFF /* ServiceSOS.xcframework in Embed Frameworks */,
+				A4383A8025C745BE003B2FFF /* ServiceChat.xcframework in Embed Frameworks */,
+				A4383A8125C745BE003B2FFF /* ServiceCases.xcframework in Embed Frameworks */,
+				A4383A8225C745BE003B2FFF /* ServiceKnowledge.xcframework in Embed Frameworks */,
+				A4383A8325C745BE003B2FFF /* ServiceCore.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +66,12 @@
 		87F348C71ECF667B00DB9066 /* SnapinsConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapinsConfig.swift; sourceTree = "<group>"; };
 		87F348C91ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SnapinsConfig+ChatDelegate.swift"; sourceTree = "<group>"; };
 		87F348CB1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SnapinsConfig+SOSDelegate.swift"; sourceTree = "<group>"; };
+		A4383A7825C745A5003B2FFF /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = ../../Frameworks; sourceTree = "<group>"; };
+		A4383A7A25C745BE003B2FFF /* ServiceSOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ServiceSOS.xcframework; path = ../../Frameworks/ServiceSOS.xcframework; sourceTree = "<group>"; };
+		A4383A7B25C745BE003B2FFF /* ServiceChat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ServiceChat.xcframework; path = ../../Frameworks/ServiceChat.xcframework; sourceTree = "<group>"; };
+		A4383A7C25C745BE003B2FFF /* ServiceCases.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ServiceCases.xcframework; path = ../../Frameworks/ServiceCases.xcframework; sourceTree = "<group>"; };
+		A4383A7D25C745BE003B2FFF /* ServiceKnowledge.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ServiceKnowledge.xcframework; path = ../../Frameworks/ServiceKnowledge.xcframework; sourceTree = "<group>"; };
+		A4383A7E25C745BE003B2FFF /* ServiceCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ServiceCore.xcframework; path = ../../Frameworks/ServiceCore.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +79,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FCD89601EE7312D0034FD59 /* ServiceCore.framework in Frameworks */,
-				6FCD895E1EE7312D0034FD59 /* ServiceChat.framework in Frameworks */,
-				6FCD895C1EE7312D0034FD59 /* ServiceCases.framework in Frameworks */,
-				6FCD89641EE7312D0034FD59 /* ServiceSOS.framework in Frameworks */,
-				6FCD89621EE7312D0034FD59 /* ServiceKnowledge.framework in Frameworks */,
+				A4383A8425C745D6003B2FFF /* ServiceCases.xcframework in Frameworks */,
+				A4383A8B25C74B7F003B2FFF /* Floaty in Frameworks */,
+				A4383A8525C745D6003B2FFF /* ServiceChat.xcframework in Frameworks */,
+				A4383A8625C745D6003B2FFF /* ServiceCore.xcframework in Frameworks */,
+				A4383A8725C745D6003B2FFF /* ServiceKnowledge.xcframework in Frameworks */,
+				A4383A8825C745D6003B2FFF /* ServiceSOS.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +107,12 @@
 		87EBF7861ECDF4A100127B7B = {
 			isa = PBXGroup;
 			children = (
+				A4383A7C25C745BE003B2FFF /* ServiceCases.xcframework */,
+				A4383A7B25C745BE003B2FFF /* ServiceChat.xcframework */,
+				A4383A7E25C745BE003B2FFF /* ServiceCore.xcframework */,
+				A4383A7D25C745BE003B2FFF /* ServiceKnowledge.xcframework */,
+				A4383A7A25C745BE003B2FFF /* ServiceSOS.xcframework */,
+				A4383A7825C745A5003B2FFF /* Frameworks */,
 				87EBF7911ECDF4A100127B7B /* SnapinsSDKExample */,
 				87EBF7901ECDF4A100127B7B /* Products */,
 				6FCD89461EE731020034FD59 /* Frameworks */,
@@ -148,6 +162,9 @@
 			dependencies = (
 			);
 			name = SnapinsSDKExample;
+			packageProductDependencies = (
+				A4383A8A25C74B7F003B2FFF /* Floaty */,
+			);
 			productName = SnapinsSDKExample;
 			productReference = 87EBF78F1ECDF4A100127B7B /* SnapinsSDKExample.app */;
 			productType = "com.apple.product-type.application";
@@ -159,12 +176,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = Salesforce;
 				TargetAttributes = {
 					87EBF78E1ECDF4A100127B7B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QU4DY9U89A;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -180,13 +196,16 @@
 			};
 			buildConfigurationList = 87EBF78A1ECDF4A100127B7B /* Build configuration list for PBXProject "SnapinsSDKExample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
 			mainGroup = 87EBF7861ECDF4A100127B7B;
+			packageReferences = (
+				A4383A8925C74B7F003B2FFF /* XCRemoteSwiftPackageReference "Floaty" */,
+			);
 			productRefGroup = 87EBF7901ECDF4A100127B7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -270,6 +290,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -295,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -309,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -329,6 +351,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -348,10 +371,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -361,15 +385,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QU4DY9U89A;
+				DEVELOPMENT_TEAM = 997P68L2N7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../../Frameworks",
 				);
 				INFOPLIST_FILE = SnapinsSDKExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sf.SnapinsSDKExample;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sf.SnapinsSDKExample35261;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -380,15 +407,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QU4DY9U89A;
+				DEVELOPMENT_TEAM = 997P68L2N7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../../Frameworks",
 				);
 				INFOPLIST_FILE = SnapinsSDKExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sf.SnapinsSDKExample;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sf.SnapinsSDKExample35261;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -417,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4383A8925C74B7F003B2FFF /* XCRemoteSwiftPackageReference "Floaty" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kciter/Floaty.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4383A8A25C74B7F003B2FFF /* Floaty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4383A8925C74B7F003B2FFF /* XCRemoteSwiftPackageReference "Floaty" */;
+			productName = Floaty;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87EBF7871ECDF4A100127B7B /* Project object */;
 }

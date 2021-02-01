@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Floaty",
+        "repositoryURL": "https://github.com/kciter/Floaty.git",
+        "state": {
+          "branch": "master",
+          "revision": "6fab04721056957d6a402f5bb28191640c3bc6d6",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
